@@ -1,11 +1,8 @@
 [
-	{ 
-		"Name" : "Hello",
-		"Cover" : "https://dl.dropboxusercontent.com/u/18396312/my-portfolio/img/AboutMe_bg.jpg",
-		"Description" : "Thank you for visiting, I am Santiago Jaramillo, a multi-disciplinary designer with over 11 years of experience in the creative field. Through out my designs I aim to find the perfect balance between user functionality and clean aesthetics."
-	},
+	
 	{ 
 		"Name" : "Wellnext",
+		"subName" : "Web Design",
 		"Cover" : "https://dl.dropboxusercontent.com/u/18396312/my-portfolio/img/wellnext_bg.jpg",
 		"Description" : "The Wellnext brand went through a major overhaul and came out looking much more modern and active with a stronger relationship with nature itself. Taking all this new values into consideration we generated a new website that is much more user friendly and easy to navigate, using photography and the new brand colors the new site aimed to rejuvenate the brand while making it more attractive to possible investors.",
 		"Background" : "http://www.designtiago.com/wp-content/uploads/2016/06/Wellnext_parallax.jpg",
@@ -14,12 +11,14 @@
 	},
 	{ 
 		"Name" : "Zebra",
+		"subName" : "Web Design",
 		"Cover" :"https://dl.dropboxusercontent.com/u/18396312/my-portfolio/img/zebra_bg.jpg",
 		"Description" : "During the last couple of years I have worked on several projects supporting a wide variety of Zebra’s marketing campaigns. What you see here is a selection of the most creative and relevant campaigns and projects I have participated on. Some of the showcased materials include Landing Pages, Emails, eBooks Infographics and Brochures." ,
 		"Background" : "http://www.designtiago.com/wp-content/uploads/2015/11/ZEBRA_LP_bg.jpg",
 		"projectImages" :  ["http://www.designtiago.com/wp-content/uploads/2015/11/Zebra_ROI-Home.jpg", "http://www.designtiago.com/wp-content/uploads/2015/11/Zebra_Wlan-Infographic.jpg" , "http://www.designtiago.com/wp-content/uploads/2015/11/Zebra_Voice-Infographic.jpg"]
 	},{ 
 		"Name" :"India",
+		"subName" : "Branding, Web Design",
 		"Cover" :"https://dl.dropboxusercontent.com/u/18396312/my-portfolio/img/india.jpg",
 		"Description" : "Developed the look and feel for this yoga retreat event, celebrated every year on the month of February. Inspired by the different locations visited during the retreat as well as some of the traditional Indian textures and colors, I generated a unique style that could be applied in all kinds of media elements, from the event website to the promotional flyer, giving the whole campaign a sense of unity and customer recognition.", 
 		"Background" : "http://www.designtiago.com/wp-content/uploads/2015/09/India_PostsBG.jpg",
@@ -29,6 +28,7 @@
 	},
 	{ 
 		"Name" :"Rhomobile",
+		"subName" : "Web Design",
 		"Cover" :"https://dl.dropboxusercontent.com/u/18396312/my-portfolio/img/rhomobile_bg.jpg",
 		"Description" : "Website redesign. Throughout the new design we aimed to show Rhomobile as the go to solution, for consumer and enterprise app developers. We achieved this by incorporating clean and impactful imagery throughout the site and using different iconography to explain and highlight some of the platforms solutions.",
 		"Background" : "http://www.designtiago.com/wp-content/uploads/2016/06/RhoMobile_BG2.jpg",
