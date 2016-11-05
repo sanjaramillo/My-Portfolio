@@ -5,12 +5,12 @@
 		'Description' : 'Thank you for visiting, I am Santiago Jaramillo, a multi-disciplinary designer with over 11 years of experience in the creative field. Through out my designs I aim to find the perfect balance between user functionality and clean aesthetics.'
 	},
 	{ 
-		'Name' : 'Wellnext',
-		'Cover' : 'https://dl.dropboxusercontent.com/u/18396312/my-portfolio/img/wellnext_bg.jpg',
+		'Name' : 'Wellnext'
+		'Cover' : 'https://dl.dropboxusercontent.com/u/18396312/my-portfolio/img/wellnext_bg.jpg'
 		'Description' : 'The Wellnext brand went through a major overhaul and came out looking much more modern and active with a stronger relationship with nature itself. Taking all this new values into consideration we generated a new website that is much more user friendly and easy to navigate, using photography and the new brand colors the new site aimed to rejuvenate the brand while making it more attractive to possible investors.'
 		'projectImages' : 
 			[
-			'Thumb' : 'http://www.designtiago.com/wp-content/uploads/2016/06/Wellnext_main.jpg', 'http://www.designtiago.com/wp-content/uploads/2016/08/Wellnext_Aboutus.jpg', 'http://www.designtiago.com/wp-content/uploads/2016/06/Wellnext_Corporation.jpg','http://www.designtiago.com/wp-content/uploads/2016/06/Wellnext_Corporation.jpg'
+			'Thumb' : 'http://www.designtiago.com/wp-content/uploads/2016/06/Wellnext_main.jpg', 'http://www.designtiago.com/wp-content/uploads/2016/08/Wellnext_Aboutus.jpg', 'http://www.designtiago.com/wp-content/uploads/2016/06/Wellnext_Corporation.jpg','http://www.designtiago.com/wp-content/uploads/2016/06/Wellnext_Corporation.jpg',
 			'Background' : 'http://www.designtiago.com/wp-content/uploads/2016/06/Wellnext_parallax.jpg'
 			]
 	},
@@ -41,7 +41,7 @@
 		'Description' : 'Website redesign. Throughout the new design we aimed to show Rhomobile as the go to solution, for consumer and enterprise app developers. We achieved this by incorporating clean and impactful imagery throughout the site and using different iconography to explain and highlight some of the platforms solutions.'
 		'projectImages' :
 		[
-			'Thumb': 'http://www.designtiago.com/wp-content/uploads/2016/06/Rhomobile_info.jpg', 'http://www.designtiago.com/wp-content/uploads/2016/06/RhoMobile_Responsive.jpg', 'http://www.designtiago.com/wp-content/uploads/2016/06/RhoMobile_2.jpg'
+			'Thumb': 'http://www.designtiago.com/wp-content/uploads/2016/06/Rhomobile_info.jpg', 'http://www.designtiago.com/wp-content/uploads/2016/06/RhoMobile_Responsive.jpg', 'http://www.designtiago.com/wp-content/uploads/2016/06/RhoMobile_2.jpg',
 			'Background' : http://www.designtiago.com/wp-content/uploads/2016/06/RhoMobile_BG2.jpg'
 		]
 	}
