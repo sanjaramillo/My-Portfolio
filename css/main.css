@@ -1,10 +1,386 @@
 
+h1{
+	font-family: 'Playfair Display', serif;
+	font-size: 48px;
+}
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+
+h4{
+	font-size: 24px;
+}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+	line-height: 22px;
+}
+
+.navbar-header #buttonbox{
+	height: 50px;
+	display: inline-block;
+	position: fixed;
+	right: 0;
+	top:5px;
+}
+
+.navbar {
+	float: right;
+	margin-bottom: 0px;
+	background-color: none;
+}
 
 
+.navbar-default {
+	background-color: rgba(255,255,255,.1);
+	border: 0;
+	min-height: 70px;
+}
+
+
+#exCollapsingNavbar2{
+	background-color: rgba(255, 255, 255,.6);
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-transition: padding-left 0.4s ease;
+	transition: padding-left 0.4s ease;
+}
+
+#exCollapsingNavbar2 a{
+	color: #666;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+#exCollapsingNavbar2 a:hover{
+	background-color: rgba(233, 238, 243,.75);
+}
+
+*/
+
+.nav{
+	background-color: rgba(255,255,255,.5);
+	width: 20%;
+	padding: 20px;
+}
+
+.nav button{
+	display: block;
+	float: right;
+	position:absolute;
+	right: 10px;
+}
+
+.navbar-nav>li>a {
+	color:#666 !important;
+}
+
+.nav>li>a{
+	    padding: 15px 40px 15px 20px
+}
+
+
+/* button styling*/
+
+.btn-primary {
+
+	padding: 8px 14px;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-color: #333;
+	background-image: none;
+	color: #ccc;
+	border: 0;
+	border-radius: 2px;
+}
+
+.btn-primary:hover{
+
+	background-color: #444444;
+	background-image: none;
+	color: #fff;
+}
+
+#intro{
+	text-align: center;
+	background-image: url(https://dl.dropboxusercontent.com/u/18396312/my-portfolio/img/AboutMe_bg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #ccc;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#intro #homecontent{
+	padding: 150px 50px 100px 50px;
+}
+
+#contactme{
+	background-color: #ccc;
+}
+
+#contactme #homecontent{
+	padding: 150px 50px 100px 50px;
+}
+
+#homecontent{
+	padding: 250px 50px 100px 50px;
+	min-height: 650px;
+}
+
+#bottomArrow{
+margin-top: -50px;
+padding: 5px;
+
+}
+
+#bottomArrow a{
+	text-align: center;
+	display: block;
+	font-size: 28px;
+	color: #ffd200;	
+
+}
+
+#project1{
+	color: #fff;
+	text-align: center;
+	background-image: url(https://dl.dropboxusercontent.com/u/18396312/my-portfolio/img/wellnext_bg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #ccc;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+}
+
+#project2{
+	background-color: blue;
+	background-image: url(https://dl.dropboxusercontent.com/u/18396312/my-portfolio/img/zebra_bg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #ccc;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: #fff;
+}
+
+#project3{
+	background-color: pink;
+	background-image: url(https://dl.dropboxusercontent.com/u/18396312/my-portfolio/img/india.jpg);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-color: #ccc;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#project4{
+	background-image: url(https://dl.dropboxusercontent.com/u/18396312/my-portfolio/img/rhomobile_bg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #fff;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#contactme{
+	background-color: white;
+}
+
+form{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+textarea{
+	display: block;
+	width: 100%;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+#submitbtn{
+	margin:10px;
+}
+
+
+footer{
+	background-color: #333;
+	padding: 20px;
+	text-align: center;
+	color: #ccc;
+}
+
+
+
+/* Projects page Styling*/
+
+
+#project_header{
+	background-color: #f1f1f1;
+}
+
+#project_header h1{
+	color: #333;
+}
+
+#project_header h3{
+	color:#666;
+	margin-top: 0;
+}
+
+.page-header {
+	border: 0;
+}
+
+#images img{
+	margin: 20px 0;
+}
+
+#wellnext-parallax{
+	background-image: url(http://www.designtiago.com/wp-content/uploads/2016/06/Wellnext_parallax.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+}
+
+#zebra-parallax{
+	background-image: url(http://www.designtiago.com/wp-content/uploads/2015/11/ZEBRA_LP_bg.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+}
+
+#india-parallax{
+	background-image: url(http://www.designtiago.com/wp-content/uploads/2015/09/India_PostsBG.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 800px;
+}
+
+#rhomobile-parallax{
+	background-image: url(http://www.designtiago.com/wp-content/uploads/2016/06/RhoMobile_BG2.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+}
+
+#project_info{
+	background-color: #444444;
+	color: #ffffff;
+	padding: 30px 20px;
+}
+
+#nextproject_btn a{
+	margin-top: 40px;
+	vertical-align: center;
+	padding: 10px 30px;
+	color:#444;
+	background-image: none;
+	background-color: #ccc;
+	font-size: 18px;
+	border: 0;
+}
+
+#nextproject_btn a:hover{
+	background-color: #fff;
+}
+
+
+
+#imageexperiment {
+	display: block;
+	background-color: #ffd200;
+	background-image: url(http://im.tech2.in.com/gallery/2012/dec/stockimage_070930177527_640x360.jpg);
+	background-repeat:;
+	height: 400px;
+	width: 400px;
+	position: relative;
+}
+
+#imageexperiment:after {
+	content: "Project1";
+	color:#ffffff;
+	font-size: 36px;
+	padding: 110px 0;
+	text-align: center;
+	display: block;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	background: rgba(0,0,0,.5);
+	-moz-transition: all 1s;
+	-webkit-transition: all 1s;
+	transition: all 1s;
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+
+#imageexperiment:hover:after {
+	opacity: 1;
+}
+
+#imageexperiment p {
+	color: #fff;
+	z-index: 1;
+	position: relative;
+}
+
+
+/* JQUERYS*/
+
+
+@media only screen and (max-width: 700px) {
+	h1{
+		font-size: 36px;
+	}
+
+
+	#homecontent{
+		padding:100px 0;
+		min-height: 300px;
+	}
+
+	#contactme #homecontent{
+		padding: 50px 0;
+
+	}
+
+	#wellnext-parallax{
+		height: 300px;
+	}
+
+	#nextproject_btn button{
+		margin-top: 10px;
+	}
+}
 
 
 
