@@ -114,6 +114,18 @@ p{
 	background-size: cover;
 }
 
+#projects{
+	text-align: center;
+	background-image: url(https://dl.dropboxusercontent.com/u/18396312/my-portfolio/img/AboutMe_bg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #ccc;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
 #intro #homecontent{
 	padding: 150px 50px 100px 50px;
 }
@@ -142,6 +154,17 @@ padding: 5px;
 	display: block;
 	font-size: 28px;
 	color: #ffd200;	
+
+}
+
+#project-parallax{
+	background-image: url(https://dl.dropboxusercontent.com/u/18396312/my-portfolio/img/wellnext_bg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 
 }
 
@@ -255,35 +278,8 @@ footer{
 	margin: 20px 0;
 }
 
-#wellnext-parallax{
+#project-parallax{
 	background-image: url(http://www.designtiago.com/wp-content/uploads/2016/06/Wellnext_parallax.jpg);
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 600px;
-}
-
-#zebra-parallax{
-	background-image: url(http://www.designtiago.com/wp-content/uploads/2015/11/ZEBRA_LP_bg.jpg);
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 600px;
-}
-
-#india-parallax{
-	background-image: url(http://www.designtiago.com/wp-content/uploads/2015/09/India_PostsBG.jpg);
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 800px;
-}
-
-#rhomobile-parallax{
-	background-image: url(http://www.designtiago.com/wp-content/uploads/2016/06/RhoMobile_BG2.jpg);
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
