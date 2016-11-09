@@ -56,7 +56,7 @@ function mySuccessListener(data)
 
 
 function renderMenu(cardObj){
-  var htmlMenu = "<li class='nav-item'><a class='nav-link' href='projects.html?project-id="+ cardObj.Name + "'</a>" + cardObj.Name +"</li>"
+  var htmlMenu = "<li class='nav-item'><a class='nav-link' href='Projects.html?project-id="+ cardObj.Name + "'</a>" + cardObj.Name +"</li>"
   return htmlMenu;
 
 }

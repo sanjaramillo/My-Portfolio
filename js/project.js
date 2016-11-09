@@ -70,7 +70,7 @@ function mySuccessListener(data)
 	$("#project-parallax").css("background-image", "url(" + object.Background + ")");  
 	$("#img3").attr("src", (object.projectImages[2]));
 	$("#img4").attr("src", (object.projectImages[3]));
-	$("#next").attr("href", "projects.html?project-id=" + $.trim(nextProjectName));
+	$("#next").attr("href", "Projects.html?project-id=" + $.trim(nextProjectName));
 
 	//alert(object.projectImages[2]);
 }
