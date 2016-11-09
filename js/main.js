@@ -9,12 +9,36 @@ $( document ).ready(function(){
     success: mySuccessListener,
     error: myErrorListener
   });
-
-
   
 });
 
-$('a[href*="#"]:not([href="#"])').click(function() {
+
+
+function mySuccessListener(data)
+{
+  //alert("alert");
+  var menuList = "";
+  var project = "";
+  var nextProject = "";
+
+  for(i = 0; i < data.length; i++){
+  menuList = menuList + renderMenu(data[i]);
+  
+    if(typeof data[i+1] != 'undefined'){
+          nextProject = data[i + 1].Name;
+        } else { 
+          nextProject = "footer";
+        }
+
+     project = project + renderCard(data[i], nextProject);
+
+
+
+
+  } 
+  $("#contactme").prepend(project);
+  $("#menuBar").html(menuList);
+  $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
@@ -27,17 +51,7 @@ $('a[href*="#"]:not([href="#"])').click(function() {
     }
   });
 
-function mySuccessListener(data)
-{
-  //alert("alert");
-  var menuList = "";
-  var project = "";
-  for(i = 0; i < data.length; i++){
-  project = project + renderCard(data[i]);
-  menuList = menuList + renderMenu(data[i]);
-  } 
-  $("#contactme").prepend(project);
-  $("#menuBar").html(menuList);
+
 }
 
 
@@ -47,13 +61,13 @@ function renderMenu(cardObj){
 
 }
 
-function renderCard(cardObj)
+function renderCard(cardObj, nextAnchor)
 {
   var htmlRendering = "<section id='projects' style='background-image: url(" + cardObj.Cover + ");'>" + 
   "<a name='intro'></a>" +
-  "<div class='container' id='homecontent'>"+
+  "<div class='container homeContainer' id='"+ cardObj.Name +"'>"+
   "<div class='col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12'>"+
-  "<h1 class='text-center'>" + cardObj.Name + "</h1><p class ='text-center'>" + cardObj.Description + "</p><p class='text-center'><a class='btn btn-primary btn-md' href='projects.html?project-id="+ cardObj.Name +"' role='button'>View Project</a></p></div></div><div class='col-md-12' id='bottomArrow'><a href='#" + cardObj.Name + "'><i class='fa fa-arrow-circle-down' aria-hidden='true'></i></a></div></section>"  
+  "<h1 class='text-center'>" + cardObj.Name + "</h1><p class ='text-center'>" + cardObj.Description + "</p><p class='text-center'><a class='btn btn-primary btn-md' href='projects.html?project-id="+ cardObj.Name +"' role='button'>View Project</a></p></div></div><div class='col-md-12' id='bottomArrow'><a href='#" + nextAnchor + "'><i class='fa fa-arrow-circle-down' aria-hidden='true'></i></a></div></section>"  
   return htmlRendering;
 
   

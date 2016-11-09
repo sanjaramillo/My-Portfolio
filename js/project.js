@@ -17,15 +17,26 @@ $( document ).ready(function(){
 function mySuccessListener(data)
 {
 	var projectName = getParameterByName('project-id'); // null (absent)
-
+	var nextProjectName = ""
 	var object = null;
 	for(i = 0; i<data.length; i++){
 		var currentObj = data[i];	
 		if (currentObj.Name == projectName){
 			object = currentObj;
+			
+			if(typeof data[i+1] != 'undefined'){
+				nextProjectName = data[i + 1].Name;
+			} else { 
+				nextProjectName = data[0].Name;
+			}
+
 		}
+
+
 	
 	}
+
+	//alert(nextProjectName);
 
 
 	/* NEXT BUTTON
@@ -47,6 +58,8 @@ function mySuccessListener(data)
 		alert("I could not find " + projectName);
 	}
 
+
+
 	console.log($("h1")[0]);
 
 	$("#project-name").html(object.Name);
@@ -57,7 +70,7 @@ function mySuccessListener(data)
 	$("#project-parallax").css("background-image", "url(" + object.Background + ")");  
 	$("#img3").attr("src", (object.projectImages[2]));
 	$("#img4").attr("src", (object.projectImages[3]));
-	$("#next").attr("href", ("'projects.html?project-id=" + nextObject.Name +"'"));
+	$("#next").attr("href", "projects.html?project-id=" + $.trim(nextProjectName));
 
 	//alert(object.projectImages[2]);
 }

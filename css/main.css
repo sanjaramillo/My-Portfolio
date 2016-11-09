@@ -126,7 +126,7 @@ p{
 	background-size: cover;
 }
 
-#intro #homecontent{
+#intro .homeContainer{
 	padding: 150px 50px 100px 50px;
 }
 
@@ -134,13 +134,13 @@ p{
 	background-color: #ccc;
 }
 
-#contactme #homecontent{
+#contactme .homeContainer{
 	padding: 150px 50px 100px 50px;
 }
 
-#homecontent{
+.homeContainer{
 	padding: 250px 50px 100px 50px;
-	min-height: 650px;
+	min-height: 600px;
 }
 
 #bottomArrow{
@@ -359,12 +359,12 @@ footer{
 	}
 
 
-	#homecontent{
+	.homeContainer{
 		padding:100px 0;
 		min-height: 300px;
 	}
 
-	#contactme #homecontent{
+	#contactme .homeContainer{
 		padding: 50px 0;
 
 	}
