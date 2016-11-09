@@ -36,5 +36,16 @@
 			[
 				"http://www.designtiago.com/wp-content/uploads/2016/06/RhoMobile_1.jpg", "http://www.designtiago.com/wp-content/uploads/2016/06/RhoMobile_2.jpg", "https://dl.dropboxusercontent.com/u/18396312/my-portfolio/img/RhomobileWeb.jpg","http://www.designtiago.com/wp-content/uploads/2016/06/Rhomobile_info.jpg"
 			]
+	},
+	{ 
+		"Name" :"Logos",
+		"subName" : "Branding",
+		"Cover" :"https://dl.dropboxusercontent.com/u/18396312/my-portfolio/img/rhomobile_bg.jpg",
+		"Description" : "Website redesign. Throughout the new design we aimed to show Rhomobile as the go to solution, for consumer and enterprise app developers. We achieved this by incorporating clean and impactful imagery throughout the site and using different iconography to explain and highlight some of the platforms solutions.",
+		"Background" : "http://www.designtiago.com/wp-content/uploads/2016/06/RhoMobile_BG2.jpg",
+		"projectImages" :
+			[
+				"http://www.designtiago.com/wp-content/uploads/2016/06/RhoMobile_1.jpg", "http://www.designtiago.com/wp-content/uploads/2016/06/RhoMobile_2.jpg", "https://dl.dropboxusercontent.com/u/18396312/my-portfolio/img/RhomobileWeb.jpg","http://www.designtiago.com/wp-content/uploads/2016/06/Rhomobile_info.jpg"
+			]
 	}
 ]	
